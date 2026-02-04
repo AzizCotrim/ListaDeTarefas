@@ -4,5 +4,10 @@
     {
         public int Id { get; }
         public string Name { get; set; }
+
+        public Category(string name)
+        {
+            Name = name;
+        }
     }
 }
