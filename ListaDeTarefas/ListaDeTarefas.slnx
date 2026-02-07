@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="ListaDeTarefas.Api/ListaDeTarefas.Api.csproj" />
+  <Project Path="ListaDeTarefas.Application/ListaDeTarefas.Application.csproj" Id="4325e9f1-3b72-4340-8b15-188cd595b6a0" />
   <Project Path="ListaDeTarefas.Domain/ListaDeTarefas.Domain.csproj" />
 </Solution>
