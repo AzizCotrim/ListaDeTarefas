@@ -1,4 +1,4 @@
-﻿namespace ListaDeTarefas.Application.Category.Create
+﻿namespace ListaDeTarefas.Application.Categories.Create
 {
     public record CreateCategoryRequest(string Name);
 

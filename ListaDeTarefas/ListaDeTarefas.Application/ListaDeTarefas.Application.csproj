@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstractions\" />
+    <ProjectReference Include="..\ListaDeTarefas.Domain\ListaDeTarefas.Domain.csproj" />
   </ItemGroup>
 
 </Project>

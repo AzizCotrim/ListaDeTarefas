@@ -1,6 +1,6 @@
 ﻿namespace ListaDeTarefas.Domain.Entities
 {
-    public class Nota
+    public class Note
     {
 
         public int Id { get; }
@@ -8,7 +8,7 @@
         public string? Description { get; set; }
         public int? CategoryId { get; set; }
 
-        public Nota(string title, string? description, int? categoriaId)
+        public Note(string title, string? description, int? categoriaId)
         {
             Title = title;
             Description = description;
