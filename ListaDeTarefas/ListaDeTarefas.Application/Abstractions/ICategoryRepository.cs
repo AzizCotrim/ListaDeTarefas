@@ -1,14 +1,14 @@
-﻿using ListaDeTarefas.Domain.Entities.Category;
+﻿using ListaDeTarefas.Domain.Entities ;
 
 namespace ListaDeTarefas.Application.Abstractions
 {
     public interface ICategoryRepository
     {
         //bool para fazer a verificacao que existe
-        Task<bool> ExistsCategory(string name);
+        Task<bool> ExistsCategoryAsync(string name);
 
-        //int para retornar a quantidade de linhas alteradas
-        Task<int> AddCategory(Category category);
+        //int para retornar o id criado
+        Task<int> AddCategoryAsync(Category category);
 
     }
 }
