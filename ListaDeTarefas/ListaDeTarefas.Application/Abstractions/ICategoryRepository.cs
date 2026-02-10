@@ -1,4 +1,4 @@
-﻿using ListaDeTarefas.Domain.Entities ;
+﻿using ListaDeTarefas.Domain.Entities;
 
 namespace ListaDeTarefas.Application.Abstractions
 {
